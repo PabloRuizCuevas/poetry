@@ -328,6 +328,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "installer"
+version = "0.5.1"
+description = "A library for installing Python wheels."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "jaraco-classes"
 version = "3.2.2"
 description = "Utility functions for Python class constructs"
@@ -1000,7 +1008,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "21029f5be33ee2bd2537799a0435f8b1274e6ef191e64dbf0e9ea4e3da97728a"
+content-hash = "d0c40408f98b88450265375930e243dc95701698fee9175de8ea0c1d41a22924"
 
 [metadata.files]
 attrs = [
@@ -1271,6 +1279,10 @@ importlib-resources = [
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
+]
+installer = [
+    {file = "installer-0.5.1-py3-none-any.whl", hash = "sha256:1d6c8d916ed82771945b9c813699e6f57424ded970c9d8bf16bbc23e1e826ed3"},
+    {file = "installer-0.5.1.tar.gz", hash = "sha256:f970995ec2bb815e2fdaf7977b26b2091e1e386f0f42eafd5ac811953dc5d445"},
 ]
 jaraco-classes = [
     {file = "jaraco.classes-3.2.2-py3-none-any.whl", hash = "sha256:e6ef6fd3fcf4579a7a019d87d1e56a883f4e4c35cfe925f86731abc58804e647"},
